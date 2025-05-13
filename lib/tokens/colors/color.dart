@@ -1,6 +1,6 @@
-export './background.color.dart';
-export './color.token.dart';
-export './icon.color.dart';
-export './shades.color.dart';
-export './stoke.color.dart';
-export './text.color.dart';
+export 'background_color.dart';
+export 'color_token.dart';
+export 'icon_color.dart';
+export 'shades_color.dart';
+export 'stoke_color.dart';
+export 'text_color.dart';
