@@ -7,10 +7,10 @@ import 'package:utopia_design_system/utopia_design_system.dart';
 ///
 /// For example:
 /// ```dart
-/// const UILabel(
+/// const UIText(
 ///   'Text Label',
-///   type: UTLabelType.body,
-///   color: UIColors.textDark,
+///   style: UTLabelStyle.body,
+///   color: UTColor.text.dark,
 ///   maxLines: 4,
 ///   textAlign: TextAlign.start,
 ///   overflow: TextOverflow.ellipsis,
@@ -19,11 +19,11 @@ import 'package:utopia_design_system/utopia_design_system.dart';
 ///   }
 /// )
 /// ```
-class UILabel extends StatelessWidget {
+class UIText extends StatelessWidget {
   /// Creating label with default text for displaying to UI.
   ///
   /// Make the [FontStyle] to `Poppins`.
-  const UILabel(
+  const UIText(
     this.text, {
     this.style,
     this.color,
