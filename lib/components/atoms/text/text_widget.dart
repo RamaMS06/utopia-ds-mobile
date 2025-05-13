@@ -19,11 +19,11 @@ import 'package:utopia_design_system/utopia_design_system.dart';
 ///   }
 /// )
 /// ```
-class UIText extends StatelessWidget {
+class UTText extends StatelessWidget {
   /// Creating label with default text for displaying to UI.
   ///
   /// Make the [FontStyle] to `Poppins`.
-  const UIText(
+  const UTText(
     this.text, {
     this.style,
     this.color,
